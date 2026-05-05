@@ -20,7 +20,7 @@ const ShuffledTitle = () => {
       const spanElement = spanRef.current;
       if (!element) return;
 
-      element.style.whiteSpace = 'nowrap';
+      element.style.whiteSpace = 'normal';
 
       const textNode = spanElement || element;
       const originalText = textNode.textContent ?? ' NEXSAS ';
@@ -78,10 +78,10 @@ const ShuffledTitle = () => {
     <div className="py-12 lg:py-16">
       <h2
         ref={titleRef}
-        className="text-it-heading-4 font-inter-tight footer-title-2 text-center font-bold tracking-[22.48px] text-nowrap sm:text-[60px] sm:leading-[120px] sm:tracking-[27.48px] md:tracking-[45.48px] lg:pl-5 lg:text-[80px] lg:tracking-[64.48px] xl:pl-10 xl:text-[112px] xl:leading-[168px] 2xl:tracking-[75.48px]"
+        className="text-it-heading-4 font-inter-tight footer-title-2 px-4 text-center font-bold leading-tight tracking-[4px] whitespace-normal sm:px-6 sm:text-[60px] sm:leading-[1.25] sm:tracking-[12px] md:tracking-[20px] lg:pl-5 lg:text-[50px] lg:tracking-[14px] xl:pl-10 xl:text-[66px] xl:leading-[1.2] xl:tracking-[18px] 2xl:tracking-[24px]"
         aria-hidden
       >
-        <span ref={spanRef} className="text-opai-purple!"> NEXSAS </span>
+        <span ref={spanRef} className="text-white"> ALTIUS FUTURE SYSTEMS </span>
       </h2>
     </div>
   );

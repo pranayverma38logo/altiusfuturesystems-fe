@@ -15,7 +15,7 @@ export default function RootLayout({
       <body className={`${fontVariables} antialiased`}>
         <Suspense>
           <SmoothScrollProvider>
-            <Navbar />
+            {/* <Navbar /> */}
             <main className="bg-background-6">{children}</main>
             <Footer />
           </SmoothScrollProvider>

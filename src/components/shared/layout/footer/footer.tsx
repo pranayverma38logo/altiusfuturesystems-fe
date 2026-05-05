@@ -31,7 +31,7 @@ const Footer = () => {
           <div className="col-span-12 lg:col-span-4">
             <RevealAnimation delay={0.1}>
               <div className="space-y-8">
-                <Link href="/" className="-ml-3 block" aria-label="Nexsas home">
+                <Link href="/" className="-ml-3 hidden" aria-label="Nexsas home">
                   <Image
                     src="/images/logo/logo-white.svg"
                     alt="Nexsas"
@@ -44,23 +44,23 @@ const Footer = () => {
                   <div>
                     <p className="text-tagline-2 text-background-11 mb-1 font-semibold">Address:</p>
                     <p className="text-tagline-3 font-normal text-white/50">
-                      30 North Gould Street, Sheridan, WY 8280
+                    3014 - SKA Metroville , ETA 2 , Greater Noida - 203207
                     </p>
                   </div>
                   <div>
                     <p className="text-tagline-2 text-background-11 mb-1 font-semibold">Contact:</p>
                     <Link
-                      href="tel:+12025550130"
+                      href="tel:+918859228751"
                       className="text-tagline-3 inline-block font-normal text-white/50 transition-colors duration-300 hover:text-white hover:underline"
                     >
-                      +1 (202) 555-0130
+                      +91 88592 28751
                     </Link>
                     <br />
                     <Link
-                      href="mailto:hello@pixels71.com"
+                      href="mailto:info@altiusfuturesystems.com"
                       className="text-tagline-3 inline-block font-normal text-white/50 transition-colors duration-300 hover:text-white hover:underline"
                     >
-                      hello@pixels71.com
+                      info@altiusfuturesystems.com
                     </Link>
                   </div>
                 </div>

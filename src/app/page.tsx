@@ -23,17 +23,17 @@ const page = () => {
   return (
     <ModalProvider>
       <Hero />
-      <OurImpact />
-      <EmpoweringBusiness />
-      <InnovativeSolutions />
-      <Projects />
-      <Testimonial />
-      <Blog />
-      <FAQ />
-      <Subscribe />
-      <CTA />
-      <Contact />
-      <VideoModal />
+      {/* <OurImpact /> */}
+      {/* <EmpoweringBusiness /> */}
+      {/* <InnovativeSolutions /> */}
+      {/* <Projects /> */}
+      {/* <Testimonial /> */}
+      {/* <Blog /> */}
+      {/* <FAQ /> */}
+      {/* <Subscribe /> */}
+      {/* <CTA /> */}
+      {/* <Contact /> */}
+      {/* <VideoModal /> */}
     </ModalProvider>
   );
 };
